@@ -1,0 +1,26 @@
+.containerPieChart1 {
+    position: relative;
+    bottom: 380px;
+    left: 310px;
+    }
+    
+    .containerPieChart2 {
+    position: relative;
+    bottom: 780px;
+    left: 610px;
+    }
+    
+    .containerPieChart1Label{
+    position: relative;
+    bottom: 850px;
+    left: 435px;
+    font-weight: bold;
+    font-family: Arial;
+    }
+    .containerPieChart1Labe2{
+    position: relative;
+    bottom: 872px;
+    left: 740px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    }

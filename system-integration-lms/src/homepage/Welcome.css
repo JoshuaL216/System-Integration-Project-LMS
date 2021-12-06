@@ -1,0 +1,9 @@
+.containerWelcome {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+    margin: -128px 0 0 315px;
+    width: 896px;
+    height: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }

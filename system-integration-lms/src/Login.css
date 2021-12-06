@@ -1,0 +1,176 @@
+@import url('https://unicons.iconscout.com/release/v4.0.0/css/line.css');
+
+body {
+    background-color : #00CED1;
+    color            : #212121;
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+    height           : 100%;
+    width            : 100%;
+}
+
+.uil-envelope, .uil-lock {
+    position: relative;
+    bottom: -3px;
+    left: -15px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size        : 40px;
+    margin: 30px;
+}
+
+hr {
+    border           : none;
+    border-top       : 2px solid #333;
+    color            : #333;
+    overflow         : visible;
+    text-align       : center;
+    height           : 20px;
+    width            : 70%;
+    margin           : 0 auto;
+}
+
+hr:after {
+    background       : skyblue;
+    content          : 'or';
+    font-size        : 10px;
+    padding          : 0 7px;
+    position         : relative;
+    top              : -13px;
+}
+
+label {
+    position         : relative;
+    font-size        : 8px;
+    font-weight      : bold;
+    font-family      : Arial, sans-serif;
+    bottom           : -.3rem;
+    
+}
+.adjust {
+    position         : relative;
+    bottom           : -.5rem;
+}
+.row {
+    display          : flex;
+}
+
+.column {
+    flex             : 50%
+}
+
+a {
+    font-size        : 8px;
+    font-weight      : bold;
+    font-family      : Arial, sans-serif; 
+    right            : .2rem; 
+    position         : relative;
+    bottom           : .2rem; 
+}
+
+a:link {
+    text-decoration  : none;
+}
+
+
+.container {
+    background-color : skyblue;
+    margin-left      : 38rem;
+    margin-top       : 100px;
+    padding-top      : 0.2px;
+    padding-bottom   : 10px;   
+    justify-content  : center;
+    height           : 68vh;
+    width            : 65vh;
+    text-align       : center;
+    font-family      : Arial, sans-serif; 
+}
+
+#email {
+    border           : 1px solid #000000;
+    outline          : none;
+    margin           : 5px; 
+    margin-left      : -7px;
+    padding          : 10px;
+    width            : 65%;
+    font-size        : 20px;
+    font-family      : Arial, sans-serif;
+}
+
+#password {
+    border           : 1px solid #000000;
+    outline          : none;
+    margin           : 5px;
+    margin-left      : -7px;
+    padding          : 10px;
+    height           : 65%;
+    width            : 65%;
+    font-size        : 20px;
+    font-family      : Arial, sans-serif;
+}
+
+#btn-login, #btn-register {
+    position         : relative;
+    background-color : #ffffff;
+    border           : 1px solid black;
+    box-sizing       : border-box;
+    box-shadow       : 2px 2px;         
+    color            : #000000;
+    cursor           : pointer;
+    margin-top       : 5px;
+    margin-left      : 0;
+    padding          : 15px;
+    outline          : none;
+    width            : 70%;
+    transition       : 0.5s;
+    font-family      : Arial, sans-serif;
+    font-size        : 15px;
+    font-weight      : bold;
+    left             : 0.5rem;
+    
+}
+
+#btn-login:hover,
+#btn-login:focus{
+    background-color : #42A5F5;
+}
+
+#btn-register:hover,
+#btn-register:focus {
+    background-color : #42A5F5;
+}
+
+.message {
+    background-color : #FE4545;
+    border-radius    : 2px;
+    box-sizing       : border-box;
+    color            : #FFFFFF;
+    display          : none;
+    text-align       : center;
+    margin-top       : 10px;
+    padding          : 15px;            
+}
+
+.error{
+    font-weight: bold;
+    background-color : #FE4545;
+    color            : #FFFFFF;
+    border-radius    : 2px;
+    box-sizing       : border-box;
+    width: 380px;
+    height: 20px;
+    text-align       : center;
+    margin-left: 30px;
+    margin-top: 15px;
+
+
+
+}
+
+.form-horizontal {
+    margin: 5px 5px 5px 5px;
+    padding: 5px ;
+}

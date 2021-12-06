@@ -1,0 +1,134 @@
+.Tcontainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 150px;
+    bottom: 80px;
+    width: 1200px;
+    height: 150px;
+    margin: 100px auto 0;
+    word-break: break-all;
+    font-style: Arial;
+  
+  }
+  
+  .Tcontainer2 {
+      border: 4px solid black;
+      width: 1200px;
+      height: 300px;
+      border-top-left-radius: 4px;
+      background-color: #87CEEB;
+  }
+  
+  .Tcontainer3 {
+    border : 3px solid black; 
+    width: 350px; 
+    height: 58px;
+    padding: 0px 1px 1px 1px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 3px 5px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #Tbutton1 {
+    background-color: inherit;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(10deg);
+    border-left: 5px solid black;
+    background-color: #6495ED;
+  
+  }
+  #Tbutton2 {
+    background-color: inherit;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(10deg);
+    border-right-style: solid;
+    background-color:#6495ED;
+  }
+  #Tbutton3 {
+    background-color: inherit;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(10deg);
+    border-right-style: solid;
+    background-color: #6495ED;
+  }
+
+  .tabs:not(:last-child){
+    border-right: 5px solid black;
+  }
+  
+  .active-tabs  {
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: black;
+  }
+
+  button {
+    border: none;
+    
+  }
+
+  .content-tabs {
+    flex-grow : 1;
+    /*background-color: #6495ED; */
+  }
+  .content {
+    background: #6495ED;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .bloc-tabs {
+    display: flex;
+    width: 60%;
+  }
+  
+  .tabs {
+  
+    padding: 13px;
+    text-align: left;
+    width: 20%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-top: 2px solid black;
+    border-bottom: 5px solid black;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
